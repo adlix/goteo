@@ -15,26 +15,26 @@ admin-account-invest-user-refund-fail-pool-amount: 'Este aporte no se puede devo
 admin-account-invest-user-refund-ko: 'No se ha podido devolver el aporte: [%s]'
 admin-account-invest-user-refund-ok: 'Beitrag ordnungsgemäß erstattet'
 admin-account-invest-user-refund-ok-pool: 'Beitrag ordnungsgemäß erstattet. Die Geldbörse wurde um %s reduziert'
-admin-account-issue-solved: 'Nos han hecho la transferencia/Wir haben die Überweisung getätigt'
-admin-account-change-user: 'Cambiar de usuario'
+admin-account-issue-solved: 'Wir haben die Überweisung getätigt'
+admin-account-change-user: 'Benutzer wecseln'
 admin-account-change-user-confirm: '¿Seguro que quieres cambiar el usuario del aporte? El nuevo usuario será:'
 admin-account-user-changed-successfully: 'Se ha cambiado el usuario del aporte [%ID%] a [%NAME%]'
 admin-account-user-changed-error: 'No se ha podido cambiar el usuario del aporte [%ID%] a [%NAME%]!'
 admin-account-modify-status: 'Ändern des Status'
-admin-account-modify-status-confirm: "¿Seguro que deseas cambiar manualmente el estado a este aporte? Esto es delicado!\nNO SE REALIZARÁ NINGUNA operación de retorno del aporte.\n"
+admin-account-modify-status-confirm: "Möchten Sie den Status manuell auf diese Eingabe ändern? Das ist heikel!\nES WIRD KEINE RÜCKGABE DES VERTRAGES DURCHGEFÜHRT.\n"
 admin-account-payment-method: 'Zahlungsmethode'
 admin-account-pool-on-fail: 'Pool (retornar al monedero si falla/zurück in die Geldbörse, wenn es scheitert)'
 admin-account-refund-to-pool: 'Rückzahlung des Beitrags in die virtuelle Geldbörse'
 admin-account-refund-to-pool-confirm: "Esto marcará el aporte como:\nRetornado si el proyecto es fallido\nCancelado si el proyecto està activo o es exitoso\nNo se reembolsará al usuario, se generá dinero en el monedero del usuario.\n¿Continuar?\n"
-admin-account-refund-to-user: 'Rückzahlung des Beitrags an der Bunutzer'
-admin-account-refund-to-user-confirm: "Esto marcará el aporte como:\nRetornado si el proyecto es fallido\nCancelado si el proyecto està activo o es exitoso\nSe reembolsará el dinero al usuario.\nEsto puede NO funcionar si el aporte es muy antiguo o el método de pago no lo soporta.\n¿Continuar?\n"
+admin-account-refund-to-user: 'Rückzahlung des Beitrags an der Benutzer'
+admin-account-refund-to-user-confirm: "Esto marcará el aporte como:\nZurückgeben, wenn das Projekt fehlgeschlagen ist.\nAbgebrochen, wenn das Projekt aktiv oder erfolgreich ist.\nDas Geld wird dem Benutzer zurückerstattet.\nEsto puede NO funcionar si el aporte es muy antiguo o el método de pago no lo soporta.\n¿Continuar?\n"
 admin-account-rewards: 'gewählte Belohnungen'
 admin-account-switch-donation: 'Conmutar donativo/Umschalten Spende'
 admin-account-switch-donation-confirm: '¿Seguro que quieres cambiar el estado de donativo?'
 admin-account-switch-pool: 'Umschalten auf die Virtuelle Geldbörse'
-admin-account-switch-pool-confirm: 'Esto solo afecta para cuando falla el proyecto, no genera ni quita dinero del monedero. ¿Continuar?'
-admin-account-switch-pool-fail: 'No se puede cambiar el estado del pool de este aporte'
-admin-account-transaction: 'Códigos de seguimiento/Tracking-Codes'
+admin-account-switch-pool-confirm: 'Dies wirkt sich nur dann aus, wenn das Projekt fehlschlägt, gibt es kein Geld es wir aber auch nichts aus der Virtuelle Geldbörse entnommen. Weiter?'
+admin-account-switch-pool-fail: 'Kann den Poolstatus dieses Beitrags nicht ändern.'
+admin-account-transaction: 'Tracking-Codes'
 admin-address: Anschrift
 admin-back: Zurück
 admin-back-detail: 'Zurück zu den Details'
@@ -51,29 +51,29 @@ admin-home: Startseite
 admin-no: 'Nein'
 admin-project: Projekt
 admin-projects: Projekte
-admin-sponsors: 'Servicios/Unterstützer/admin-sponsors'
+admin-sponsors: 'Über die Sponsoren'
 admin-status: Status
 admin-user: Benutzer
 admin-users: Benutzer
 admin-yes: 'Ja'
-admin-mailing-back-to-list: 'Volver a comuncaciones / Zurück zu Kommunikation'
+admin-mailing-back-to-list: 'Zurück zu Kommunikation'
 admin-mailing-view-message: 'Nachricht ansehen'
-admin-mailing-communicating-with: 'Buscábamos comunicarnos con %DESC%'
-admin-mailing-new-massive: 'Se ha creado un nuevo mailing masivo a %TOTAL% usuarios'
+admin-mailing-communicating-with: 'Wir wollten mit %DESC%'
+admin-mailing-new-massive: 'Ein neues Massen-Mailing wurde für %TOTAL% Benutzer erstellt.'
 admin-mailing-subject: 'Betreff'
 admin-mailing-created: 'Erstellt'
 admin-mailing-status: 'Status des automatischen Mailversands'
-admin-mailing-view-and-activate: 'Ver en el admin del boletín para activar el envio'
-admin-mailing-view-in-newsletter: 'Ver en el admin del boletín'
-admin-mailing-view-in-sent: 'Ver en el historial de envíos (estadísticas)'
-admin-no: 'No'
-admin-project: Proyecto
-admin-projects: Proyectos
-admin-sponsors: Servicios
-admin-status: Estado
-admin-user: Usuario
-admin-users: Usuarios
-admin-yes: Si
-admin-percent: Porcentaje
-admin-empty-list: 'No se han encontrado registros'
-admin-items: 'entradas'
+admin-mailing-view-and-activate: 'Sehen Sie im Newsletter-Admin nach, um das Senden zu aktivieren.'
+admin-mailing-view-in-newsletter: 'Sehen Sie im Newsletter-Admin nach'
+admin-mailing-view-in-sent: 'In Versandhistorie anzeigen (Statistik)'
+admin-no: 'Nein'
+admin-project: Projekt
+admin-projects: Projekte
+admin-sponsors: Sponsoren
+admin-status: Status
+admin-user: Mitglied
+admin-users: Miglieder
+admin-yes: Ja
+admin-percent: Prozent
+admin-empty-list: 'Keine Datensätze gefunden'
+admin-items: 'Einträge'

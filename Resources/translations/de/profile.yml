@@ -19,7 +19,7 @@ profile-field-entity-type-public: 'Public'
 profile-field-entity-type-private: 'Private'
 profile-field-entity-type-concerted: 'Private-Public partnership'
 
-profile-field-entity-type-checkbox-public: 'I''m a public entity'
+profile-field-entity-type-checkbox-public: 'Öffentliche Einrichtung'
 
 profile-field-legal-entity: 'Rechtsform'
 profile-field-legal-entity-choose: 'Wähle eine Rechtsform'

@@ -13,10 +13,10 @@ costs-field-required_cost-yes: Erforderlich
 costs-field-required_cost: 'Diese Ausgabe ist'
 costs-field-resoure: 'Andere Ressourcen'
 costs-field-schedule: 'Aufgaben-Zeitplan'
-costs-field-type: Type
+costs-field-type: Typ
 costs-fields-main-title: 'Kostenaufstellung der Aufwendungen'
 costs-fields-metter-title: 'Ansicht der Aufwendungen'
-costs-fields-resources-title: Ressource
+costs-fields-resources-title: Ressourcen
 costs-main-header: Aufwendungen
 mandatory-cost-field-amount: 'Sie müssen den Aufwendungen einen Betrag zuzuordnen'
 mandatory-cost-field-description: 'Sie müssen eine Beschreibung für die Aufwendungen hinzufügen'
@@ -29,13 +29,13 @@ step-4: Aufwendungen
 step-costs: 'Step: Projekt/Aufwendungen'
 tooltip-project-cost-amount: 'Geben Sie en Betrag in Euro für jede Aufwendung an. Benutzen Sie keine Kommata oder Punkte für Tausender, OK?'
 tooltip-project-cost-cost: 'Geben Sie den bestmöglich beschreibenden Titel für die Aufwendung an.'
-tooltip-project-cost-dates: 'Give a time frame for when the task will be completed or the expense will be covered. Plan it by starting at least two months from today, since you have to take into account the time needed for revising the proposal, publicizing it if it is chosen, and the 40 days from the first financing. Don''t include pieces that were developed previously even though these are good to explain in your project''s description. We only want things on the schedule that still need to be done and for which you''re requesting co-financing.'
+tooltip-project-cost-dates: 'Geben Sie einen Zeitrahmen an, in dem die Aufgabe abgeschlossen oder die Kosten abgedeckt werden. Planen Sie es, indem Sie mindestens zwei Monate beginnen, da Sie die Zeit berücksichtigen müssen, die für die Überarbeitung des Vorschlags erforderlich ist, und wenn Sie die Wahl treffen, und die 40 Tage nach der ersten Finanzierung. Erhalten Sie keine Teile, die selbst entwickelt wurden, obwohl diese in der Beschreibung Ihres Projekts gut zu erklären sind. Wir wollen nur die Dinge im Zeitplan, die noch erledigt werden müssen und für die Sie eine Kofinanzierung beantragen.'
 tooltip-project-cost-description: 'Kurze Erklärung woraus die Aufwendungen bestehen.'
-tooltip-project-cost-required: 'This section is very important: for each expense that you enter, you have to indicate if it is absolutely necessary or just supplemental. All of the expenses that are marked as necessary will be added to get the full amount of minimum financing required for the project. The sum of the supplemental expenses, in contrast, can be requested during the second round of financing, after having gotten the “necessary” funds.'
+tooltip-project-cost-required: 'Dieser Abschnitt ist sehr wichtig: Für jede von Ihnen eingegebene Ausgabe müssen Sie angeben, ob dies unbedingt notwendig oder nur ergänzend ist. Alle erforderlichen Ausgaben werden hinzugefügt, um den vollen Betrag der für das Projekt erforderlichen Mindestfinanzierung zu erhalten. Die Summe der Zusatzkosten kann dagegen während der zweiten Finanzierungsrunde nach Erhalt der "notwendigen" Mittel beantragt werden.'
 tooltip-project-cost-type: 'Hier sollten Sie die Art der Kosten festlegen: verknüpft mit einer Aufgabe (etwas, das jemandes Fähigkeiten oder Kenntnisse erfordert), den Erhalt von Materialien (Verbrauchsmaterialien, Rohstoffe) oder Infrastruktur (Räume, Geräte, Möbel)'
 tooltip-project-costs: 'Je genauer Sie die Aufwendungen aufschlüsseln, desto besser ist Goteo in der Lage, die allgemeinen Informationen über Ihr Projekt zu bewerten.'
-tooltip-project-resource: 'Note here if you are counting on additional resources, apart from those that you''re asking for, in order to carry out this project: sources of financing, your own resources, or perhaps you''ve already gathered some materials. This might be attractive to potential co-financiers of your project.'
-tooltip-project-totals: 'This graph shows the sum of essential expenses (the minimum necessary to complete the project) and the sum of secondary expenses (optimal amount) for the two rounds of financing. The first round lasts 40 days, in order to obtain the minimum essential amount. Only those that achieve this level of financing can opt to continue with the second round, for an additional 40 days, in order to achieve the optimal amount of funds. In the second round (in contrast with the first), you get everything you have raised even if you don''t reach the full goal.  '
+tooltip-project-resource: 'Beachten Sie hier, wenn Sie zusätzliche Ressourcen benötigen, abgesehen von denen, die Sie fordern, um dieses Projekt durchzuführen: Finanzierungsquellen, eigene Ressourcen oder vielleicht haben Sie bereits Material gesammelt. Dies könnte für potentielle Kofinanzierer Ihres Projekts attraktiv sein.'
+tooltip-project-totals: 'Diese Grafik zeigt die Summe der wesentlichen Kosten (das Minimum, das für die Fertigstellung des Projekts erforderlich ist) und die Summe der Nebenkosten (optimaler Betrag) für die beiden Finanzierungsrunden. Die erste Runde dauert 40 Tage, um den Mindestbetrag zu erhalten. Nur diejenigen, die dieses Finanzierungsniveau erreichen, können sich für die zweite Runde um weitere 40 Tage entscheiden, um die optimale Summe an Mitteln zu erzielen. In der zweiten Runde (im Gegensatz zum ersten) erhalten Sie alles, was Sie gesammelt haben, auch wenn Sie nicht das volle Ziel erreichen.'
 validate-cost-field-dates: 'Geben Sie die Anfangs- und Enddaten für die Aufwendungen an, um eine bessere Evaluierung des Projekts zu ermöglichen.'
 validate-project-costs-any_error: 'Einige Informationen fehlen bei der Kostenaufstellung der Aufwendungen'
 validate-project-field-costs: 'Wir empfehlen Ihnen die Ausgaben in 5 verschiedene Bereiche aufzuteilen, um die Bewertung zu vereinfachen, ob es auf Goteo veröffentlicht werden sollte.'
