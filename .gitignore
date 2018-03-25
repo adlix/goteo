@@ -26,3 +26,4 @@ dist
 phpunit.xml
 tests/build
 .couscous
+/nbproject/private/

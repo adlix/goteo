@@ -26,10 +26,10 @@ ServerSignature Off
   RewriteEngine On
   RewriteBase /
 
-  RewriteCond %{HTTP_HOST} ^([0-9\.]*) [NC]
-  RewriteCond %{HTTP_HOST} ^(.*).ovh.net [NC]
-  RewriteCond %{HTTP_HOST} ^([alf\.]*)goteo.org [NC]
-  RewriteRule ^(.*)$ http://www.goteo.org/$1 [R=301,L]
+  #RewriteCond %{HTTP_HOST} ^([0-9\.]*) [NC]
+  #RewriteCond %{HTTP_HOST} ^(.*).ovh.net [NC]
+  #RewriteCond %{HTTP_HOST} ^([alf\.]*)goteo.org [NC]
+  #RewriteRule ^(.*)$ http://www.goteo.org/$1 [R=301,L]
 
   #RewriteCond %{HTTPS} !=on
   #RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
@@ -37,18 +37,18 @@ ServerSignature Off
 
   RewriteCond %{REQUEST_URI} !=/server-status
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule .* index.php?%{QUERY_STRING}
+  RewriteRule .* index_dev.php?%{QUERY_STRING}
 </IfModule>
 
 # Cache para recursos estaticos
 <IfModule mod_expires.c>
-          ExpiresActive on
+#          ExpiresActive on
 
-          ExpiresByType image/jpg "access plus 60 days"
-          ExpiresByType image/png "access plus 60 days"
-          ExpiresByType image/gif "access plus 60 days"
-          ExpiresByType image/jpeg "access plus 60 days"
+#          ExpiresByType image/jpg "access plus 60 days"
+#          ExpiresByType image/png "access plus 60 days"
+#          ExpiresByType image/gif "access plus 60 days"
+#          ExpiresByType image/jpeg "access plus 60 days"
 
-          ExpiresByType text/css "access plus 1 week"
-          ExpiresByType text/javascript "access plus 1 week"
+#          ExpiresByType text/css "access plus 1 week"
+#          ExpiresByType text/javascript "access plus 1 week"
 </IfModule>

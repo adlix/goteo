@@ -445,3 +445,5 @@ oauth:
 
 
 ```
+
+Give access rights 777 to /var directory and sub folders
